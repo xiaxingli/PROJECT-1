@@ -1,0 +1,57 @@
+/* Custom font */
+/* @font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+} */
+
+/************** CSS Reset **************/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {background-color: coral;}
+
+h1 {
+  /*font-family:'Gill Sans', sans-serif;*/
+  font-family: "Datdot", sans-serif;
+  src: url('fonts/Datdot-K7prl.ttf') format ('truetype');
+  font-size: 500px;
+}
+
+p {
+  /*font-family:'Gill Sans', sans-serif;*/
+  font-family: "source sans variable", 'futura', sans-serif;
+  /*src: url('fonts/Datdot-K7prl.ttf') format ('truetype');*/
+  font-size: 50px;
+}
+
+
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/************** End CSS Reset **************/
+
+#omars-container {
+  width: 100vw;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+ 
+}
